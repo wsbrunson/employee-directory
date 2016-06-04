@@ -1,0 +1,31 @@
+{
+	"parser": "babel-eslint",
+	"settings": {
+		"import/resolver": {
+			"webpack": {
+				"config": "webpack.config.js"
+			}
+		}
+	},
+	"env": {
+		"jasmine": true,
+		"es6": true
+	},
+	"ecmaFeatures": {
+		"arrowFunctions": true,
+		"blockBindings": true,
+		"templateStrings": true,
+		"modules": true,
+		"esnext": true
+	},
+  "rules": {
+			"arrow-body-style": 0,
+      "semi": [2, "always"],
+      "quotes": [2, "single"],
+			"no-console": [0],
+			"no-trailing-spaces": [0],
+			"no-underscore-dangle": [0],
+			"space-before-function-paren": [2, "never"],
+			"indent": [2, "tab"]
+		}
+}
